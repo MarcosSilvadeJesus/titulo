@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de reclamação RGB</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        body {
+            background-color: yellow;
+        }
+
+        .principal {
+            width: 100;
+            padding: 20px;
+            margin: auto;
+        }
+
+        h1, h2 { /*mudando cor da fonte e centralizando o texto*/
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            color: blueviolet;
+        }
+
+
+        
+        p {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            color: green;
+        }
+        
+
+    </style>
+</head>
+
+<body>
+    
+    <a href="indexF.html">Formulário</a>
+    
+    <h1>RGB</h1>
+    <br>
+    <h2>Consultoria de reclamações</h2>
+
+    <p>Somos a RGB como podemos ajuda-ló?</p>
+
+    <form action="" method="">
+        <table class="principal">
+
+            <tr>
+                <th><label for="nome">Nome:</label></th>
+                <td><input type="text" name="nome" id="nome"></td>
+            </tr>
+
+            <tr>
+                <th><label for="email">E-mail:</label></th>
+                <td><input type="email" name="email" id="email"></td>
+            </tr>
+
+            <tr>
+                <th><label for="msg">Digite sua reclamação</label></th>
+                <td><textarea name="msg" cols="30" rows="10"></textarea></td>
+            </tr>
+
+            <tr>
+                <th><label for="Data">Data</label></th>
+                <td><input type="datetime-local" name="Data" id="Data"></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td><button>Enviar</button></td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+</html>
